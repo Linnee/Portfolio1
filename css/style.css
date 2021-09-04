@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+.nav-item {
+    font-family: 'Lato', sans-serif;
+}
+
+.nav-item a {
+    border-radius: 5px;
+}
+
+.nav-item a:hover {
+    background-color: #ffc107!important;
+    color: white!important;
+}
+
+#request {
+    text-decoration: none;
+}
+
+.fontuser {
+    position: relative;
+}
+
+.fontuser i {
+    position: absolute;
+    left: 15px;
+}
+
+#basic-addon1 {
+    border-radius: 0.25rem 0 0 0.25rem!important;
+}
+
+.header {
+    padding: 50px;
+    max-height: 630px;
+}
+
+#carouselExampleIndicators {
+    max-height: 400px;
+}
+
+#carouselExampleIndicators .carousel-indicators button {
+    width: 15px;
+    height: 15px;
+    border: #dedfe0 solid 5px;
+    border-radius: 100%;
+    position: relative;
+    bottom: -50px;
+}
+
+#carouselExampleIndicators .carousel-indicators .active {
+    border: #1ca8dd solid 5px;
+}
+
+.carousel-inner .carousel-item img {
+    max-width: 640px;
+}
+
+.service {
+    margin-top: 300px;
+    margin-bottom: 100px;
+}
+
+.fa-clock {
+    font-size: 60px;
+    color: orange;
+}
+
+.fa-graduation-cap {
+    font-size: 60px;
+    color: #1ca8dd;
+}
+
+.fa-cog {
+    font-size: 60px;
+    color: #1ca8dd;
+}
+
+.fa-rocket {
+    font-size: 60px;
+    color: #1ca8dd;
+}
+
+.fa-users {
+    font-size: 60px;
+    color: #1ca8dd;
+}
+
+.col-item {
+    margin-bottom: 50px;
+}
+
+.fa-dollar-sign {
+    font-size: 60px;
+    color: #1ca8dd;
+    padding-left: 20px;
+}
+
+.border-orange {
+    border: 3px solid #e7ad48!important;
+}
+
+.service {
+    max-height: 800px;
+}
+
+.about {
+    max-height: 800px;
+}
+
+.about__text {
+    align-items: center;
+    justify-content: center;
+}
+
+.about__img {
+    max-height: 800px;
+}
+
+@media screen and (max-width:768px) {
+    .header {
+        max-height: 840px;
+    }
+    .carousel-control-prev-icon {
+        left: 0;
+    }
+    .carousel-control-next-icon {
+        right: 0;
+    }
+    .about {
+        max-height: 900px;
+    }
+}
